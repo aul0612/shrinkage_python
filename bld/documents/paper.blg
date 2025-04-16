@@ -1,0 +1,15 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is '/home/klaus/Documents/shrinkage_python/bld/documents/paper.blg'
+[166] biber:340> INFO - === Tue Apr 15, 2025, 15:58:34
+[194] Biber.pm:418> INFO - Reading '/home/klaus/Documents/shrinkage_python/bld/documents/paper.bcf'
+[326] Biber.pm:978> INFO - Found 1 citekeys in bib section 0
+[351] Biber.pm:4401> INFO - Processing section 0
+[371] Biber.pm:4592> INFO - Looking for bibtex file 'refs.bib' for section 0
+[375] bibtex.pm:1713> INFO - LaTeX decoding ...
+[479] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[553] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[553] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[553] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[553] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[556] bbl.pm:654> INFO - Writing '/home/klaus/Documents/shrinkage_python/bld/documents/paper.bbl' with encoding 'UTF-8'
+[558] bbl.pm:757> INFO - Output to /home/klaus/Documents/shrinkage_python/bld/documents/paper.bbl

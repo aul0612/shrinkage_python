@@ -3,7 +3,7 @@
 # ======================================================================================
 
 [project]
-name = "template_project"
+name = "shrinkage_python"
 description = "Template for reproducible research projects in economics"
 requires-python = ">=3.11"
 dynamic = ["version"]
@@ -21,10 +21,10 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
 ]
 authors = [
-    { name = "JANE DOE", email = "janedoe@example-university.com" },
+    { name = "Klaus Aulbach", email = "klaus.aulbach@uni-bonn.de" },
 ]
 maintainers = [
-    { name = "JANE DOE", email = "janedoe@example-university.com" },
+    { name = "Klaus Aulbach", email = "klaus.aulbach@uni-bonn.de" },
 ]
 
 [project.readme]
@@ -35,10 +35,10 @@ content-type = "text/markdown"
 text = "MIT"
 
 [project.urls]
-Changelog = "https://github.com/OpenSourceEconomics/econ-project-templates"
-Documentation = "https://github.com/OpenSourceEconomics/econ-project-templates"
-Github = "https://github.com/OpenSourceEconomics/econ-project-templates"
-Tracker = "https://github.com/OpenSourceEconomics/econ-project-templates/issues"
+Changelog = "https://github.com/aul0612/shrinkage_python"
+Documentation = "https://github.com/aul0612/shrinkage_python"
+Github = "https://github.com/aul0612/shrinkage_python"
+Tracker = "https://github.com/aul0612/shrinkage_python/issues"
 
 # ======================================================================================
 # Build system configuration
@@ -49,7 +49,7 @@ requires = ["hatchling", "hatch_vcs"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.hooks.vcs]
-version-file = "src/template_project/_version.py"
+version-file = "src/shrinkage_python/_version.py"
 
 [tool.hatch.build.targets.sdist]
 exclude = ["tests"]
@@ -87,9 +87,10 @@ statsmodels = "*"
 numpy = "*"
 pandas = ">=2.2"
 plotly = ">=5.2.0,<6"
+scikit-learn = "*"
 
 [tool.pixi.pypi-dependencies]
-template_project = {path = ".", editable = true}
+shrinkage_python = {path = ".", editable = true}
 pdbp = "*"
 
 [tool.pixi.target.unix.pypi-dependencies]
@@ -130,7 +131,7 @@ docs = {features = ["docs"], solve-group = "default"}
 # ======================================================================================
 
 [tool.pytask.ini_options]
-paths = ["./src/template_project", "./documents"]
+paths = ["./src/shrinkage_python", "./documents"]
 pdbcls = "pdbp:Pdb"
 
 # ======================================================================================
