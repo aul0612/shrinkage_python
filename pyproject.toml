@@ -88,6 +88,7 @@ numpy = "*"
 pandas = ">=2.2"
 plotly = ">=5.2.0,<6"
 scikit-learn = "*"
+numba = ">=0.61.2,<0.62"
 
 [tool.pixi.pypi-dependencies]
 shrinkage_python = {path = ".", editable = true}

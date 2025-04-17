@@ -1,5 +1,5 @@
 import numpy as np
-from scipy.stats import multivariate_normal
+from numba import prange
 from sklearn.linear_model import Ridge
 
 
@@ -31,12 +31,12 @@ def run_simulation(seed, n, k, b, cov_x, means_x, beta, sigma, lambda_values):
     pd.DataFrame
         DataFrame containing the results of the simulation.
     """
-    np.random.Generator.seed(seed)
+    rng = np.random.default_rng(seed)
     lam_len = len(lambda_values)
     coefficients_all = np.zeros((lam_len, b, k))
-    for b_idx in range(b):
-        x = multivariate_normal.rvs(mean=means_x, cov=cov_x, size=n)
-        eps = np.random.Generator.normal(0, sigma, n)
+    for b_idx in prange(b):
+        x = rng.multivariate_normal(means_x, cov_x, n)
+        eps = rng.normal(0, sigma, n)
         y = x @ beta + eps
         for lam_idx, lam in enumerate(lambda_values):
             ridge = Ridge(alpha=lam, fit_intercept=False)

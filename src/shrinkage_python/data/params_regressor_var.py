@@ -8,8 +8,8 @@ sigma = 2  # std of noise
 
 beta = np.ones(k)
 means_x = np.zeros(k)
-VARS_X = np.linspace(0.1, 5, k)
-cov_x = np.diag(VARS_X)
+vars_x = np.linspace(0.1, 5, k)
+cov_x = np.diag(vars_x)
 
 lambda_values = np.concatenate(
     [np.linspace(0, 20, 100), np.linspace(20, 12000, 401)[1:]]

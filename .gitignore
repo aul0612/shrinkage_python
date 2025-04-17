@@ -37,3 +37,12 @@ docs_template/scripts/latex/*.png
 
 # local
 .vscode
+
+
+*.pdf
+*.log
+*.bcf
+*.pickle
+*.fdb_latexmk
+*.fls
+bld/

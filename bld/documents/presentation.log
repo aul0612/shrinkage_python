@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.15)  15 APR 2025 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.15)  17 APR 2025 08:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1325,28 +1325,43 @@ Package biblatex Info: Reference segment=0 on input line 35.
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 43.
 
-[1
+! Missing $ inserted.
+<inserted text>
+                $
+l.49 \end{frame}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 59.
+ut line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
+! Missing $ inserted.
+<inserted text>
+                $
+l.49 \end{frame}
+
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
 9.
 
@@ -1357,7 +1372,7 @@ File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ] [3
 
 ]
-<../figures/smoking_by_marital_status.png, id=47, 702.625pt x 501.875pt>
+<../figures/smoking_by_marital_status.png, id=49, 702.625pt x 501.875pt>
 File: ../figures/smoking_by_marital_status.png Graphic file (type png)
 <use ../figures/smoking_by_marital_status.png>
 Package pdftex.def Info: ../figures/smoking_by_marital_status.png  used on inpu
@@ -1388,26 +1403,28 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  )
 Here is how much of TeX's memory you used:
- 30523 strings out of 476091
- 595243 string characters out of 5794081
+ 30561 strings out of 476091
+ 595802 string characters out of 5794081
  1856330 words of memory out of 5000000
- 50286 multiletter control sequences out of 15000+600000
- 538321 words of font info for 98 fonts, out of 8000000 for 9000
+ 50315 multiletter control sequences out of 15000+600000
+ 548428 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,1137b,1675s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sftt1095.pfb>
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
+s0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss
+1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sftt1095.pfb>
 Output written on /home/klaus/Documents/shrinkage_python/bld/documents/presenta
-tion.pdf (6 pages, 180263 bytes).
+tion.pdf (6 pages, 204313 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
